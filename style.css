@@ -4,18 +4,23 @@ body{
     background-image: linear-gradient(35deg,rgb(256,0,0),rgb(0,0,256));
     overflow: hidden;
 }
+h2{
+    text-align: center;
+    color: #68f83d;
+    text-shadow: #68f83d 0px 0px 5px;
+}
 
 .meme-container{
-    height: 100vh;
+    height: 97.5vh;
     width: 100vw;
     position: relative;
 }
 
-.meme-container>img{
+.meme-container img{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100% - 40px);
+    width: calc(100%);
     margin: auto;
     margin-bottom: 115px;
     box-shadow: rgb(255, 110, 58) 0px 4px 8px;
